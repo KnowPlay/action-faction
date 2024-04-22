@@ -3,7 +3,7 @@
   <h1 align="center">Action Faction</h1>
 
   <p align="center">
-    {short description or subtitle}
+    { }
     <br>
     <a href="https://github.com/KnowPlay/action-faction/issues">» submit a suggestion </a>
     ·
@@ -84,7 +84,16 @@
 
 #### :heavy_plus_sign: Environment Secrets & Variables
 
-- [ ] setup environment on GitHub
+[Configure](https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment#about-environments)
+- [x] Settings > Environment > New environment > Environment secrets or variables
+
+[Secrets](https://docs.github.com/en/actions/learn-github-actions/contexts#secrets-context)
+- Encrypted environment variables
+- Accessible only by GitHub Actions in this environment using [secrets context](https://docs.github.com/en/actions/learn-github-actions/contexts#secrets-context)
+
+[Variables](https://docs.github.com/en/actions/learn-github-actions/contexts#vars-context)
+- Non-sensitive configuration data
+- Accessible only by GitHub Actions in the context of this environment using [vars context](https://docs.github.com/en/actions/learn-github-actions/contexts#vars-context)
 
 <!-- CONTRIBUTING -->
 ## :ear_of_rice: Contributing

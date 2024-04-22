@@ -14,7 +14,7 @@ jobs: # Jobs to be executed by the workflow
 
         strategy: # Strategy for the job execution
             matrix: # Define a matrix of different configurations to be tested
-                python-version: [3.8] # List of Python versions to use, here it's only 3.12
+                python-version: [3.12] # List of Python versions to use, here it's only 3.12
         
         env: # Environment variables to be available to all steps in the job
             MODE: "dev" # Setting MODE variable to "dev"
@@ -31,7 +31,7 @@ jobs: # Jobs to be executed by the workflow
             - name: Install dependencies
               run: |  # Commands to run as part of this step
                 python -m pip install --upgrade pip 
-                pip install -r /Users/sarahlin/GitHub/KnowPlay/action-faction/requirement.txt
+                python pip install -r requirements.txt
             
             - name: Test App Code  # Descriptive name for the step
               run: python ./main_test.py # Runs the test script located in the working directory

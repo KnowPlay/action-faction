@@ -29,7 +29,7 @@ jobs: # Jobs to be executed by the workflow
                 python-version: ${{ matrix.python-version }} # Specify the Python version from the strategy matrix
             
             - name: Install dependencies
-              run:  # Commands to run as part of this step
+              run: |  # Commands to run as part of this step
                 python -m pip install --upgrade pip # Make sure pip is up-to-date
                 pip install -r ../requirements.txt # Installs packages defined in requirements.txt
             

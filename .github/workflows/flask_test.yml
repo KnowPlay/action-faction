@@ -10,7 +10,7 @@ jobs: # Jobs to be executed by the workflow
         runs-on: ubuntu-latest # Specifies the type of runner that the job will run on, in this case, the latest Ubuntu
         defaults: # Default settings for all the run commands within this job
             run:
-                working-directory: ./app/ # Sets the default working directory for steps in the job
+                working-directory: app # Sets the default working directory for steps in the job
 
         strategy: # Strategy for the job execution
             matrix: # Define a matrix of different configurations to be tested

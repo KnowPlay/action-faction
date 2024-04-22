@@ -72,7 +72,12 @@
 
 #### :heavy_plus_sign: Test a Workflow
 
-- [ ] 
+- [ ] Check 
+  - [ ] spelling
+  - [ ] directory path
+  - [ ] routes/urls
+  - [ ] tests
+- [ ] Pass
 
 <!-- CONTRIBUTING -->
 ## :ear_of_rice: Contributing

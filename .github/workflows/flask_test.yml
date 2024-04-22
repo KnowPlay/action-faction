@@ -14,7 +14,7 @@ jobs: # Jobs to be executed by the workflow
 
         strategy: # Strategy for the job execution
             matrix: # Define a matrix of different configurations to be tested
-                python-version: [3.12] # List of Python versions to use, here it's only 3.12
+                python-version: [3.8] # List of Python versions to use, here it's only 3.12
         
         env: # Environment variables to be available to all steps in the job
             MODE: "dev" # Setting MODE variable to "dev"

@@ -17,7 +17,7 @@ jobs: # Jobs to be executed by the workflow
                 python-version: [3.12] # List of Python versions to use, here it's only 3.12
         
         env: # Environment variables to be available to all steps in the job
-            MODE: "dev" # Setting MODE variable to "dev"
+            MODE: ${{ secrets.MODE }} # Setting MODE variable to "dev"
         
         steps: # Steps represent a sequence of tasks that will be executed as part of the job
             - uses: actions/checkout@v3 # Uses a pre-built action to check out the repository so the workflow can access it

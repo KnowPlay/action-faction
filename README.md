@@ -58,14 +58,21 @@
 
 ### :honey_pot: Setup
 <!-- Add setup instructions here -->
-- [ ] project
-- [ ] branch protection rules
+- [x] project
+- [x] branch protection rules
 
-### :apple: Workflow
+### :apple: Development
 <!-- Add development details here -->
-- [ ] GitHub Actions VSC extension
-- [ ] .github/workflows
-  - [ ] flask_test.yml
+
+#### :heavy_plus_sign: Create a Workflow
+
+- [x] GitHub Actions VSC extension
+- [x] .github/workflows
+  - [x] flask_test.yml
+
+#### :heavy_plus_sign: Test a Workflow
+
+- [ ] 
 
 <!-- CONTRIBUTING -->
 ## :ear_of_rice: Contributing
@@ -75,7 +82,6 @@
 > 3. Commit your Changes (`git commit -m 'add my contribution'`)
 > 4. Push to the Branch (`git push --set-upstream origin my-branch`)
 > 5. Open a Pull Request
-
 
 <!-- LICENSE -->
 ## :pencil: License

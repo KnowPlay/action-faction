@@ -50,13 +50,8 @@
 
 ### :wrench: Tech Stack
 
-- [ ] 
-- [ ] 
-
-### :mushroom: Features
-
-- [ ] 
-- [ ] 
+- [ ] GitHub Actions
+- [ ] Python, Flask
 
 <!-- CONTENT -->
 ## :cactus: Documentation
@@ -66,9 +61,11 @@
 - [ ] project
 - [ ] branch protection rules
 
-### :apple: Development
+### :apple: Workflow
 <!-- Add development details here -->
-- [ ] create workflow
+- [ ] GitHub Actions VSC extension
+- [ ] .github/workflows
+  - [ ] flask_test.yml
 
 <!-- CONTRIBUTING -->
 ## :ear_of_rice: Contributing

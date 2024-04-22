@@ -1,4 +1,4 @@
-name: Flask App Tests
+name: CI Tests
 
 on: # Specifies the GitHub events that trigger the workflow
     pull_request: # Trigger the workflow on pull request events
@@ -28,10 +28,10 @@ jobs: # Jobs to be executed by the workflow
               with:
                 python-version: ${{ matrix.python-version }} # Specify the Python version from the strategy matrix
             
-            - name: Install dependencies
-              run:  # Commands to run as part of this step
-                python -m pip install --upgrade pip # Make sure pip is up-to-date
-                pip install -r ../requirements.txt # Installs packages defined in requirements.txt
+            - name: Install Dependencies
+              run: |  # Commands to run as part of this step
+                python -m pip install pip --upgrade pip
+                pip install -r ../requirements.txt
             
             - name: Test App Code  # Descriptive name for the step
               run: python ./main_test.py # Runs the test script located in the working directory

@@ -16,7 +16,10 @@
 
 ![GitHub forks](https://img.shields.io/github/forks/KnowPlay/action-faction?style=social) ![GitHub stars](https://img.shields.io/github/stars/KnowPlay/action-faction?style=social)
 
-![contributions welcome](https://img.shields.io/badge/contributions-welcome-purple.svg?style=flat) ![GitHub License](https://img.shields.io/github/license/KnowPlay/action-faction?color=green) ![GitHub Pull Request (open)](https://img.shields.io/github/issues-pr/KnowPlay/action-faction?color=blue) ![GitHub last commit](https://img.shields.io/github/last-commit/KnowPlay/action-faction?color=pink)
+[![CI Tests](https://github.com/KnowPlay/action-faction/actions/workflows/flask_test.yml/badge.svg?branch=main&event=pull_request)](https://github.com/KnowPlay/action-faction/actions/workflows/flask_test.yml)
+![GitHub Pull Request (open)](https://img.shields.io/github/issues-pr/KnowPlay/action-faction?color=blue) ![GitHub last commit](https://img.shields.io/github/last-commit/KnowPlay/action-faction?color=pink)
+![GitHub License](https://img.shields.io/github/license/KnowPlay/action-faction?color=green)
+![contributions welcome](https://img.shields.io/badge/contributions-welcome-purple.svg?style=flat)  
 
   </div>
 </div>
@@ -50,22 +53,38 @@
 
 ### :wrench: Tech Stack
 
-- [ ] GitHub Actions
-- [ ] Python, Flask
+- [x] GitHub Actions
+- [x] Python, Flask
 
 <!-- CONTENT -->
 ## :cactus: Documentation
 
 ### :honey_pot: Setup
 <!-- Add setup instructions here -->
-- [ ] project
-- [ ] branch protection rules
+- [x] project
+- [x] branch protection rules
 
-### :apple: Workflow
+### :apple: Development
 <!-- Add development details here -->
-- [ ] GitHub Actions VSC extension
-- [ ] .github/workflows
-  - [ ] flask_test.yml
+
+#### :heavy_plus_sign: Create a Workflow
+
+- [x] GitHub Actions VSC extension
+- [x] .github/workflows
+  - [x] flask_test.yml
+
+#### :heavy_plus_sign: Test a Workflow
+
+- [x] Check 
+  - [x] spelling
+  - [x] directory path
+  - [x] routes/urls
+  - [x] tests
+- [x] Pass
+
+#### :heavy_plus_sign: Environment Secrets & Variables
+
+- [ ] setup environment on GitHub
 
 <!-- CONTRIBUTING -->
 ## :ear_of_rice: Contributing
@@ -75,7 +94,6 @@
 > 3. Commit your Changes (`git commit -m 'add my contribution'`)
 > 4. Push to the Branch (`git push --set-upstream origin my-branch`)
 > 5. Open a Pull Request
-
 
 <!-- LICENSE -->
 ## :pencil: License

@@ -6,9 +6,9 @@ load_dotenv() # take env vars from .env
 
 app = Flask(__name__)
 
-@app.route('/<random-string>')
+@app.route('/<random_string>')
 def return_backwards_string(random_string):
-    return "".join(reverse(random_string))
+    return "".join(reversed(random_string))
 
 @app.route('/get-mode')
 def get_mode():

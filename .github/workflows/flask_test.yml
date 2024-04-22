@@ -31,7 +31,7 @@ jobs: # Jobs to be executed by the workflow
             - name: Install dependencies
               run: |  # Commands to run as part of this step
                 python -m pip install pip --upgrade pip
-                pip install -r requirements.txt
+                pip install -r ../requirements.txt
             
             - name: Test App Code  # Descriptive name for the step
               run: python ./main_test.py # Runs the test script located in the working directory

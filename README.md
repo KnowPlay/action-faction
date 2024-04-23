@@ -16,7 +16,7 @@
 
 ![GitHub forks](https://img.shields.io/github/forks/KnowPlay/action-faction?style=social) ![GitHub stars](https://img.shields.io/github/stars/KnowPlay/action-faction?style=social)
 
-[![CI Tests](https://github.com/KnowPlay/action-faction/actions/workflows/flask_test.yml/badge.svg?branch=main&event=pull_request)](https://github.com/KnowPlay/action-faction/actions/workflows/flask_test.yml)
+[![CI Test](https://github.com/KnowPlay/action-faction/actions/workflows/flask_test.yml/badge.svg?event=pull_request)](https://github.com/KnowPlay/action-faction/actions/workflows/flask_test.yml)
 ![GitHub Pull Request (open)](https://img.shields.io/github/issues-pr/KnowPlay/action-faction?color=blue) ![GitHub last commit](https://img.shields.io/github/last-commit/KnowPlay/action-faction?color=pink)
 ![GitHub License](https://img.shields.io/github/license/KnowPlay/action-faction?color=green)
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-purple.svg?style=flat)  
